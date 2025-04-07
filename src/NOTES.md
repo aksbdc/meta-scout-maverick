@@ -1,3 +1,19 @@
+# Open Source Components
+- <https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE>
+- <https://github.com/meta-llama/llama-models/blob/main/models/llama4/USE_POLICY.md>
+- <https://www.facebook.com/privacy/policy/>
+
+## Defined Terms
+
+1. Weights
+    1. Instruct
+    1. Pretrained
+
+## Mixture-of-Experts (MoE)
+- `Llama 4 Scout (110B)`
+    - Disk Storage: 210GB
+
+```bash
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━┓
 ┃ Model Descriptor(ID)              ┃ Hugging Face Repo                 ┃ Context Length ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━┩
@@ -69,3 +85,4 @@
 ├───────────────────────────────────┼───────────────────────────────────┼────────────────┤
 │ Llama-Guard-2-8B                  │ meta-llama/Llama-Guard-2-8B       │ 4K             │
 └───────────────────────────────────┴───────────────────────────────────┴────────────────┘
+```

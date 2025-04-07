@@ -6,7 +6,7 @@ FOLDER = ""
 LOCATION = ""
 
 processor = "a"
-model = "b'"
+model = "b"
 
 messages = []
 
