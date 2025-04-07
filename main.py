@@ -1,9 +1,17 @@
-# from transformers import AutoTokenizer, Llama4ForConditonalGeneration
-import torch
+# from transformers import AutoProcessor, Llama4ForConditionalGeneration
+# import torch
 
-def main():
-    print("Hello from meta-scout-maverick!")
+MODEL = "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+FOLDER = ""
+LOCATION = ""
 
+processor = "a"
+model = "b'"
 
-if __name__ == "__main__":
-    main()
+messages = []
+
+inputs = 0
+outputs = 1
+
+response = "Hello, world."
+print(response)
