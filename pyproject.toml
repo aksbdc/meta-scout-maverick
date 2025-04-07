@@ -1,7 +1,11 @@
 [project]
 name = "meta-scout-maverick"
-version = "0.1.0"
-description = "Add your description here"
+version = "2025.04.07"
+description = "AI Resource Program"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "huggingface-hub>=0.30.1",
+    "torch>=2.6.0",
+    "transformers>=4.51.0",
+]
